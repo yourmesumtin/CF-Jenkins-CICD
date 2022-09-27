@@ -257,7 +257,7 @@ Resources:
   VenturaProdWebSN2:
     Type: AWS::EC2::Subnet
     Properties:
-      AvailabilityZone: "us-east-1b"
+      AvailabilityZone: "us-east-2b"
       VpcId: !Ref VenturaProdVPC
       CidrBlock: !Ref VenturaProdWebSN2CidrBlockPara
       Tags:
